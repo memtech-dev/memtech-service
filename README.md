@@ -11,12 +11,7 @@ The [#memtech dev team](https://github.com/memtech-dev).  Send a message if you'
 * [Bundler](http://gembundler.com/)
 
 ### How do I contribute?
-* [Click the fork button](https://github.com/memtech-dev/memtech-service#fork_box) up top.
-* Once the fork is created under your
-profile then download it (e.g. `git clone git://github.com/memtech-dev/memtech-service.git`).  
-* `bundle install` to get all of the libraries.
-* `ruby service.rb` to run a test server.
-* Submit a pull request
+Fork the project and submit a pull request.  GitHub has [great documentation on this process](http://help.github.com/send-pull-requests/).  It's fun and easy!
 
 ### Further info
 See [LaunchMemphis.com](http://www.launchmemphis.com/memtech/)
