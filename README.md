@@ -11,7 +11,7 @@ The [#memtech dev team](https://github.com/memtech-dev).  Send a message if you'
 * [Bundler](http://gembundler.com/)
 
 ### How do I contribute?
-Fork the project and submit a pull request.  GitHub has [great documentation on this process](http://help.github.com/send-pull-requests/).  It's fun and easy!
+[Fork this project](https://github.com/memtech-dev/memtech-service#fork_box), make your changes, and submit a pull request.  GitHub has [great documentation on this process](http://help.github.com/send-pull-requests/).  It's fun and easy!
 
 ### Further info
 See [LaunchMemphis.com](http://www.launchmemphis.com/memtech/)
