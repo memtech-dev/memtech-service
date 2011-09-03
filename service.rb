@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'twitter'
 require 'json'
+require './memcal.rb'
 
 get '/' do
     home_page = <<-HERE.gsub /^\s+/, ""
@@ -11,6 +12,7 @@ get '/' do
     <h3>API Features</h3>
     <ul>
         <li><a href="/tweets">#memtech tweets</a></li>
+        <li><a href="/calendar">#memtech events in the next month</a></li>
     </ul>
     HERE
 end
@@ -24,4 +26,9 @@ get '/tweets' do
         tweets:      tweets
     })
 end
-    
+
+get '/calendar' do
+  content_type :json
+
+  MemCal::Calendar.new.simple.to_json
+end
